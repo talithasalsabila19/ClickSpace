@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>ClickSpace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">ClickSpace</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="layanan-login.php">Layanan</a>
+    <a href="booking-form.php">Booking</a>
+    <a href="status.php">Riwayat</a>
+    <a href="login.php" class="btn-login">Login</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <h1>Booking Studio Foto Jadi Lebih Mudah</h1>
+    <p>Pilih layanan foto, tentukan jadwal, dan lakukan reservasi studio secara online.</p>
+
+    <div class="hero-actions">
+      <a href="login.php" class="button">Login</a>
+      <a href="register.php" class="button second">Sign Up</a>
+    </div>
+  </section>
+
+  <section class="section favorite-gallery-section">
+    <p class="gallery-label">LAYANAN FAVORIT</p>
+
+    <h2 class="gallery-title">Pilihan Studio Favorit</h2>
+
+    <p class="gallery-subtitle">
+      Pilih layanan foto terbaik untuk mengabadikan momen spesialmu di ClickSpace.
+    </p>
+
+    <div class="gallery-tabs">
+      <input type="radio" name="service" id="tab-self" checked>
+      <input type="radio" name="service" id="tab-family">
+      <input type="radio" name="service" id="tab-photobooth">
+      <input type="radio" name="service" id="tab-prewed">
+      <input type="radio" name="service" id="tab-graduation">
+      <input type="radio" name="service" id="tab-studio">
+
+      <div class="gallery-tags">
+        <label for="tab-self" class="gallery-tag">Self Studio</label>
+        <label for="tab-family" class="gallery-tag">Foto Keluarga</label>
+        <label for="tab-photobooth" class="gallery-tag">Photobooth</label>
+        <label for="tab-prewed" class="gallery-tag">Prewedding</label>
+        <label for="tab-graduation" class="gallery-tag">Graduation</label>
+        <label for="tab-studio" class="gallery-tag">Sewa Studio</label>
+      </div>
+
+      <div class="gallery-panels">
+
+        <div class="favorite-gallery gallery-panel panel-self">
+          <div class="gallery-card mini-card mini-left">
+            <img src="images/studio.jpg" alt="Sewa Studio">
+          </div>
+
+          <div class="gallery-card side-card left-card">
+            <img src="images/foto keluarga.jpg" alt="Foto Keluarga">
+          </div>
+
+          <div class="gallery-card main-card">
+            <img src="images/self studio.jpg" alt="Self Studio">
+            <div class="gallery-card-info">
+              <h3>Self Studio</h3>
+              <p>Foto mandiri dengan konsep simple dan modern.</p>
+              <span>Mulai Rp50.000</span>
+            </div>
+          </div>
+
+          <div class="gallery-card side-card right-card">
+            <img src="images/prewed.jpg" alt="Prewedding">
+          </div>
+
+          <div class="gallery-card mini-card mini-right">
+            <img src="images/graduation.jpg" alt="Graduation">
+          </div>
+
+          <div class="gallery-nav">
+            <label for="tab-studio">←</label>
+            <label for="tab-family">→</label>
+          </div>
+        </div>
+
+        <div class="favorite-gallery gallery-panel panel-family">
+          <div class="gallery-card mini-card mini-left">
+            <img src="images/self studio.jpg" alt="Self Studio">
+          </div>
+
+          <div class="gallery-card side-card left-card">
+            <img src="images/fotobooth.jpg" alt="Photobooth">
+          </div>
+
+          <div class="gallery-card main-card">
+            <img src="images/foto keluarga.jpg" alt="Foto Keluarga">
+            <div class="gallery-card-info">
+              <h3>Foto Keluarga</h3>
+              <p>Abadikan momen keluarga dengan suasana nyaman.</p>
+              <span>Mulai Rp150.000</span>
+            </div>
+          </div>
+
+          <div class="gallery-card side-card right-card">
+            <img src="images/prewed.jpg" alt="Prewedding">
+          </div>
+
+          <div class="gallery-card mini-card mini-right">
+            <img src="images/graduation.jpg" alt="Graduation">
+          </div>
+
+          <div class="gallery-nav">
+            <label for="tab-self">←</label>
+            <label for="tab-photobooth">→</label>
+          </div>
+        </div>
+
+        <div class="favorite-gallery gallery-panel panel-photobooth">
+          <div class="gallery-card mini-card mini-left">
+            <img src="images/foto keluarga.jpg" alt="Foto Keluarga">
+          </div>
+
+          <div class="gallery-card side-card left-card">
+            <img src="images/self studio.jpg" alt="Self Studio">
+          </div>
+
+          <div class="gallery-card main-card">
+            <img src="images/fotobooth.jpg" alt="Photobooth">
+            <div class="gallery-card-info">
+              <h3>Photobooth</h3>
+              <p>Layanan foto cepat untuk acara dan kebutuhan pribadi.</p>
+              <span>Mulai Rp75.000</span>
+            </div>
+          </div>
+
+          <div class="gallery-card side-card right-card">
+            <img src="images/graduation.jpg" alt="Graduation">
+          </div>
+
+          <div class="gallery-card mini-card mini-right">
+            <img src="images/studio.jpg" alt="Sewa Studio">
+          </div>
+
+          <div class="gallery-nav">
+            <label for="tab-family">←</label>
+            <label for="tab-prewed">→</label>
+          </div>
+        </div>
+
+        <div class="favorite-gallery gallery-panel panel-prewed">
+          <div class="gallery-card mini-card mini-left">
+            <img src="images/fotobooth.jpg" alt="Photobooth">
+          </div>
+
+          <div class="gallery-card side-card left-card">
+            <img src="images/foto keluarga.jpg" alt="Foto Keluarga">
+          </div>
+
+          <div class="gallery-card main-card">
+            <img src="images/prewed.jpg" alt="Prewedding">
+            <div class="gallery-card-info">
+              <h3>Prewedding</h3>
+              <p>Foto pasangan dengan konsep elegan dan romantis.</p>
+              <span>Mulai Rp300.000</span>
+            </div>
+          </div>
+
+          <div class="gallery-card side-card right-card">
+            <img src="images/graduation.jpg" alt="Graduation">
+          </div>
+
+          <div class="gallery-card mini-card mini-right">
+            <img src="images/studio.jpg" alt="Sewa Studio">
+          </div>
+
+          <div class="gallery-nav">
+            <label for="tab-photobooth">←</label>
+            <label for="tab-graduation">→</label>
+          </div>
+        </div>
+
+        <div class="favorite-gallery gallery-panel panel-graduation">
+          <div class="gallery-card mini-card mini-left">
+            <img src="images/prewed.jpg" alt="Prewedding">
+          </div>
+
+          <div class="gallery-card side-card left-card">
+            <img src="images/fotobooth.jpg" alt="Photobooth">
+          </div>
+
+          <div class="gallery-card main-card">
+            <img src="images/graduation.jpg" alt="Graduation">
+            <div class="gallery-card-info">
+              <h3>Graduation</h3>
+              <p>Foto wisuda untuk mengabadikan momen kelulusan.</p>
+              <span>Mulai Rp100.000</span>
+            </div>
+          </div>
+
+          <div class="gallery-card side-card right-card">
+            <img src="images/self studio.jpg" alt="Self Studio">
+          </div>
+
+          <div class="gallery-card mini-card mini-right">
+            <img src="images/foto keluarga.jpg" alt="Foto Keluarga">
+          </div>
+
+          <div class="gallery-nav">
+            <label for="tab-prewed">←</label>
+            <label for="tab-studio">→</label>
+          </div>
+        </div>
+
+        <div class="favorite-gallery gallery-panel panel-studio">
+          <div class="gallery-card mini-card mini-left">
+            <img src="images/graduation.jpg" alt="Graduation">
+          </div>
+
+          <div class="gallery-card side-card left-card">
+            <img src="images/prewed.jpg" alt="Prewedding">
+          </div>
+
+          <div class="gallery-card main-card">
+            <img src="images/studio.jpg" alt="Sewa Studio">
+            <div class="gallery-card-info">
+              <h3>Sewa Studio</h3>
+              <p>Sewa tempat studio untuk kebutuhan foto dan konten.</p>
+              <span>Mulai Rp75.000/jam</span>
+            </div>
+          </div>
+
+          <div class="gallery-card side-card right-card">
+            <img src="images/self studio.jpg" alt="Self Studio">
+          </div>
+
+          <div class="gallery-card mini-card mini-right">
+            <img src="images/foto keluarga.jpg" alt="Foto Keluarga">
+          </div>
+
+          <div class="gallery-nav">
+            <label for="tab-graduation">←</label>
+            <label for="tab-self">→</label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section booking-flow-section">
+  <p class="flow-label">ALUR BOOKING</p>
+  <h2>Langkah Mudah Booking Studio</h2>
+  <p class="section-subtitle">
+    Ikuti alur sederhana dari membuat akun sampai melihat riwayat booking.
+  </p>
+
+  <div class="booking-flow">
+    <div class="flow-step">
+      <span class="step-number">01</span>
+      <h3>Register Akun</h3>
+      <p>Customer membuat akun terlebih dahulu agar dapat melanjutkan ke proses login.</p>
+    </div>
+
+    <div class="flow-arrow">→</div>
+
+    <div class="flow-step">
+      <span class="step-number">02</span>
+      <h3>Login</h3>
+      <p>Customer masuk menggunakan akun yang sudah dibuat untuk mengakses fitur booking.</p>
+    </div>
+
+    <div class="flow-arrow">→</div>
+
+    <div class="flow-step">
+      <span class="step-number">03</span>
+      <h3>Isi Form Booking</h3>
+      <p>Customer memilih layanan, tanggal, jam, metode pembayaran, dan upload bukti pembayaran.</p>
+    </div>
+
+    <div class="flow-arrow">→</div>
+
+    <div class="flow-step">
+      <span class="step-number">04</span>
+      <h3>Lihat Riwayat</h3>
+      <p>Setelah booking berhasil, customer dapat melihat bukti dan status booking pada halaman riwayat.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 ClickSpace</p>
+</footer>
+
+</body>
+</html>
