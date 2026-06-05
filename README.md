@@ -1,4 +1,4 @@
-# 📸 ClickSpace (Proyek UAP)
+# 📸 ClickSpace 
 
 ClickSpace adalah sistem booking studio foto sederhana yang dibangun menggunakan PHP dan MySQL. Sistem ini digunakan untuk mengelola layanan studio, pemesanan customer, bukti pembayaran, status booking, data user, serta fitur admin.
 
